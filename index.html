@@ -27,29 +27,52 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+
+          <ul class="mobile-menu">
+            <li><a href="#">Nieuwe containers</a></li>
+            <li><a href="#">Aanbod containers</a></li>
+            <li><a href="#">Afvalzakken</a></li>
+            <li><a href="#">Dealers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="top-cta">
+            <a href="#" class="top-cta-a">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <span class="txt">+31 (0)123 12 12 12</span>
+            </a>
+            <a href="TEL:+31 (0)123 12 12 12" class="top-cta-a">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <span class="txt">info@website.com</span>
+            </a>
+            <div class="dropdown">
+              <a
+                href="info@website.com"
+                class="top-cta-a"
+                data-bs-toggle="dropdown"
+              >
+                <div class="icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <span class="txt">NL</span>
+                <i class="far fa-chevron-down"></i>
+              </a>
+              <div class="dropdown-menu lan-dropdown">
+                <ul>
+                  <li><a href="#">NL</a></li>
+                  <li><a href="#">ENG</a></li>
+                  <li><a href="#">ENG</a></li>
+                </ul>
+              </div>
             </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+          </div>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -58,7 +81,7 @@
       <header class="header-section">
         <div class="header-in">
           <!-- header-top -->
-          <div class="header-top">
+          <div class="header-top d-lg-block d-none">
             <div class="container">
               <div class="header-top-inner">
                 <div class="top-cta">
@@ -108,7 +131,7 @@
                   <img src="images/logo.svg" alt="" />
                 </a>
 
-                <div class="main-menu">
+                <div class="main-menu d-lg-block d-none">
                   <ul>
                     <li><a href="#">Nieuwe containers</a></li>
                     <li><a href="#">Aanbod containers</a></li>
@@ -117,6 +140,10 @@
                     <li><a href="#">Contact</a></li>
                   </ul>
                 </div>
+
+                <a href="#" class="offcanvas-open d-lg-none">
+                  <i class="far fa-bars"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -228,7 +255,7 @@
                 <h2 class="h2 mb-0">Ons nieuwste aanbod</h2>
               </div>
 
-              <div class="offer-cards-row row">
+              <div class="offer-cards-row row gy-4">
                 <!-- offer-card -->
                 <div class="col-lg-4 col-md-6">
                   <div class="offer-card">
@@ -246,7 +273,10 @@
                           <a href="#" class="sq-button">Op aanvraag</a>
                         </div>
                         <div class="right">
-                          <a href="#" class="sq-button sq-button--transparent">
+                          <a
+                            href="details.html"
+                            class="sq-button sq-button--transparent"
+                          >
                             <span class="txt">Bekijken</span>
                             <i class="far fa-long-arrow-right"></i>
                           </a>
@@ -274,7 +304,10 @@
                           <p class="mb-0">Excl. BTW</p>
                         </div>
                         <div class="right">
-                          <a href="#" class="sq-button sq-button--transparent">
+                          <a
+                            href="details.html"
+                            class="sq-button sq-button--transparent"
+                          >
                             <span class="txt">Bekijken</span>
                             <i class="far fa-long-arrow-right"></i>
                           </a>
@@ -302,7 +335,10 @@
                           <p class="mb-0">Excl. BTW</p>
                         </div>
                         <div class="right">
-                          <a href="#" class="sq-button sq-button--transparent">
+                          <a
+                            href="details.html"
+                            class="sq-button sq-button--transparent"
+                          >
                             <span class="txt">Bekijken</span>
                             <i class="far fa-long-arrow-right"></i>
                           </a>
@@ -331,7 +367,7 @@
             <div class="news-section__inner">
               <div class="news-item-wrapper">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-lg-6">
                     <div class="row">
                       <div class="col-12">
                         <div class="news-card">
@@ -362,7 +398,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-lg-6 order-lg-0 order-first">
                     <div class="row">
                       <div class="col-12">
                         <div class="news-title">
@@ -432,7 +468,7 @@
         <div class="contact-section">
           <div class="container">
             <div class="contact-section__inner">
-              <div class="contact-section__row row">
+              <div class="contact-section__row row g-5">
                 <div class="col-lg-6">
                   <div class="contact-content">
                     <div class="contact-content__title">
@@ -441,7 +477,7 @@
                         <li>
                           <a href="TEL:+31 (0)123 12 12 12">
                             <div class="icon">
-                              <i class="far fa-phone-alt"></i>
+                              <i class="fa fa-phone-alt"></i>
                             </div>
                             <span class="txt">+31 (0)123 12 12 12</span>
                           </a>
@@ -462,7 +498,7 @@
                       <div class="contact-form__title">
                         <h4 class="mb-0">Stuur ons een bericht</h4>
                       </div>
-                      <div class="contact-form__main row">
+                      <div class="contact-form__main row g-4">
                         <div class="col-md-6">
                           <div class="single-input-x">
                             <input
@@ -536,13 +572,13 @@
       <footer class="footer-section">
         <div class="container">
           <div class="footer-section__inner">
-            <div class="footer-top-row row">
-              <div class="col-lg-4 col-md-6">
+            <div class="footer-top-row row gy-4">
+              <div class="col-lg-3 col-md-6">
                 <div class="footer-column">
                   <div class="footer-menu">
                     <h4>Over Sidalco B.V.</h4>
                     <ul>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                       <li>
                         <a href="#"
                           >Sidalco B.V. <br />
@@ -550,10 +586,10 @@
                           1212 AA Amsterdam</a
                         >
                       </li>
-                      <li>
+                      <li class="mt-2">
                         <a href="TEL:+31 (0)123 12 12 12">
                           <div class="icon">
-                            <i class="far fa-phone-alt"></i>
+                            <i class="fa fa-phone-alt"></i>
                           </div>
                           <span class="txt">+31 (0)123 12 12 12</span>
                         </a>
@@ -561,7 +597,7 @@
                       <li>
                         <a href="mailto:info@website..com">
                           <div class="icon">
-                            <i class="far fa-envelope"></i>
+                            <i class="fa fa-envelope"></i>
                           </div>
                           <span class="txt">info@website..com</span>
                         </a>
@@ -581,7 +617,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-3 col-md-6">
                 <div class="footer-column">
                   <div class="footer-menu">
                     <h4>Containers</h4>
@@ -599,7 +635,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-3 col-md-6">
                 <div class="footer-column">
                   <div class="footer-menu">
                     <h4>Alustahl</h4>
@@ -617,7 +653,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-3 col-md-6">
                 <div class="footer-column">
                   <div class="footer-menu">
                     <h4>Elkoplast</h4>

@@ -1,22 +1,289 @@
 
 
 @media (max-width: 1399px) {
- 
+    .top-cta-a {
+        font-size: 14px;
+        gap: 3px;
+    }
+    .lan-dropdown {
+        padding: 7px;
+        min-width: 80px;
+    }
+    .lan-dropdown ul li a {
+        font-size: 13px;
+        padding: 4px;
+        border-radius: 3px;
+    }
+    .top-cta {
+        gap: 25px;
+    }
+    .header-top {
+        padding: 9px 0;
+    }
+    .header-logo {
+        width: 160px;
+        height: 103px;
+        margin-top: -22px;
+    }
+    .main-menu > ul > li > a {
+        font-size: 16px;
+    }
+    .main-menu > ul {
+        gap: 28px;
+    }
+    .header-main {
+        border-bottom-width: 2px;
+    }
+
+    .hero__title .h1 {
+        font-size: 32px;
+    }
+    .hero__title {
+        margin-bottom: 35px;
+    }
+    .hero-section {
+        padding: 100px 0 60px;
+    }
+    .hero-card__badge .img {
+        width: calc(var(--in-width) * 0.7);
+    }
+    .hero-card__badge {
+        top: 25px;
+        left: 24px;
+    }
+    .default-button {
+        font-size: 15px;
+        min-height: 42px;
+        padding: 5px 12px;
+        border-radius: 6px;
+    }
+    .hero-card {
+        border-radius: 16px;
+    }
+    .hero-card .c-btn {
+        bottom: 24px;
+        right: 25px;
+    }
+    .hero-cards-row .row {
+        --bs-gutter-x: 20px;
+    }
+
+
+    .h2 {
+        font-size: 27px;
+    }
+    .offer-section {
+        padding: 50px 0;
+    }
+    .sec-title {
+        margin-bottom: 35px;
+    }
+    .offer-card__content__txt h3 {
+        font-size: 16px;
+        margin: 0 0 6px;
+    }
+    .offer-card__content__txt h4 {
+        font-size: 14px;
+        margin-bottom: 11px;
+    }
+    .offer-card__content__txt {
+        padding: 15px;
+    }
+    .sq-button {
+        gap: 5px;
+        min-height: 35px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    .offer-card__content__bottom {
+        padding: 1px 0 18px;
+    }
+    .offer-card__image {
+        border-radius: 10px 10px 0 0;
+    }
+    .offer-card {
+        border-radius: 0px 0px 10px 10px;
+    }
+    .offer-card__content__bottom .left p {
+        font-size: 11px;
+    }
+    .offer-card__content__bottom .left {
+        gap: 9px;
+    }
+    .offer-section__bottom p {
+        font-size: 17px;
+    }
+    .offer-section__bottom {
+        margin-top: 36px;
+    }
+
+
+    .news-section {
+        padding: 50px 0;
+    }
+    .news-card__image {
+        border-radius: 14px;
+    }
+    .news-card-content h3 {
+        font-size: 23px;
+    }
+    .news-content-bt .left p {
+        font-size: 14px;
+    }
+    .ns-btn {
+        padding: 3px 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+        gap: 8px;
+        border-bottom-width: 1px;
+    }
+    .ns-btn .fa-arrow-circle-right {
+        font-size: 23px;
+    }
+    .news-card-content {
+        padding: 22px 0 0;
+    }
+    .news-content-bt {
+        margin-top: 15px;
+    }
+    .news-card-content h4 {
+        font-size: 16px;
+    }
+    .news-card--sm .news-card__image {
+        border-radius: 7px;
+    }
+    .news-card--sm {
+        gap: 17px;
+    }
+    .news-item-wrapper .row {
+        --bs-gutter-x: 65px;
+        --bs-gutter-y: 30px;
+    }
+
+
+    .contact-section {
+        padding: 50px 0;
+    }
+    .contact-menu li a .icon {
+        height: 32px;
+        width: 32px;
+        font-size: 16px;
+    }
+    .contact-menu li a {
+        gap: 9px;
+        font-size: 14px;
+    }
+    .contact-menu {
+        gap: 20px;
+    }
+    .contact-content__title .h2 {
+        margin-bottom: 15px;
+    }
+    .contact-content__title {
+        margin-bottom: 35px;
+    }
+    .contact-form__title h4 {
+        font-size: 16px;
+    }
+
+    .footer-menu h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .footer-menu ul li a {
+        font-size: 15px;
+        gap: 5px;
+    }
+    .fb-menu ul li a {
+        font-size: 14px;
+    }
+    .fs-menu li a {
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        padding: 1px 0 0;
+        border-radius: 5px;
+    }
+    .fb-menu {
+        margin-top: 30px;
+    }
+    .footer-section {
+        padding: 50px 0;
+    }
+
+
 }
 
 
 @media (max-width: 1199px) {
- 
+
 }
 
 
 @media (max-width: 991px) {
- 
+    .header-logo {
+        width: 80px;
+        height: 49px;
+        margin-top: 0px;
+    }
+    .header-main {
+        background: #C8D6FF;
+        background: var(--theme__color1);
+        border-bottom: none;
+        color: #fff;
+    }
+
+    .top-cta {
+        flex-direction: column;
+        gap: 14px;
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }
+    .top-cta-a {
+        color: var(--theme__color1);
+        font-size: 14px;
+        font-weight: 500;
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .hero__title .h1 {
+        font-size: 19px;
+    }
+    .hero-section {
+        padding: 50px 0 40px;
+    }
+    .hero__title {
+        margin-bottom: 20px;
+    }
+    .hero-card__badge .img {
+        width: calc(var(--in-width) * 0.4);
+    }
+    .hero-card__badge {
+        top: 15px;
+        left: 14px;
+    }
+    .hero-card {
+        border-radius: 10px;
+    }
+    .hero-card .c-btn {
+        bottom: 14px;
+        right: 15px;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+    .sec-title {
+        margin-bottom: 25px;
+    }
+
+    .fb-menu ul {
+        gap: 6px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 
@@ -25,6 +292,17 @@
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .hero__title .h1 {
+        font-size: 17px;
+    }
+
+    .news-card-content h4 {
+        font-size: 15px;
+    }
+
+    .contact-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
