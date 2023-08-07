@@ -342,6 +342,42 @@
         width: 32px;
         font-size: 18px;
     }
+
+    .info__content h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .info__content .footer-menu a {
+        font-size: 14px;
+    }
+    .info__row {
+        margin-bottom: 90px;
+    }
+
+    .info__content p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .inf-ul li .icon {
+        height: 37px;
+        width: 37px;
+    }
+    .inf-ul li {
+        gap: 13px;
+    }
+    .inf-ul {
+        font-size: 15px;
+        line-height: 25px;
+        gap: 11px;
+    }
+    .info-section {
+        padding: 80px 0;
+    }
+
+    .contact-s-dragon {
+        left: -90px;
+        width: 270px;
+    }
 }
 
 
@@ -373,6 +409,10 @@
         color: var(--theme__color1);
         font-size: 14px;
         font-weight: 500;
+    }
+
+    .contact-s-dragon {
+        display: none;
     }
 }
 

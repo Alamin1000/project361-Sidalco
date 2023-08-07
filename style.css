@@ -662,10 +662,18 @@ p:last-child{
 .contact-section {
   padding: 80px 0;
   background: #EFFBFF;
+  position: relative;
 }
 .contact-section__inner {
-
+  position: relative;
 }
+.contact-s-dragon {
+  position: absolute;
+  top: calc(50% + 55px);
+  left: -240px;
+  transform: translate(0,-50%);
+}
+
 .contact-section__row {
   align-items: center;
 }
@@ -1327,3 +1335,100 @@ p:last-child{
   left: 0;
 }
 /* ---details-section---end */
+
+
+
+/* ---info-section--- */
+.info-section {
+  padding: 110px 0;
+}
+.info-section__inner {
+
+}
+
+.info__row {
+  margin-bottom: 123px;
+  align-items: center;
+}
+.info__content {
+
+}
+.info__content .h2 {
+
+}
+.info__content h5 {
+  font-size: 16px;
+  margin-bottom: 7px;
+  color: #567AE3;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.info__content h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+  color: #293133;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.info__content p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 161.111% */
+}
+.info__content .footer-menu {
+
+}
+.info__content .footer-menu a {
+  font-size: 16px;
+}
+.info__content .fs-menu {
+
+}
+.info__map {
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 14px 44px 0px rgba(2, 0, 102, 0.18);
+  display: flex;
+}
+.info__map .map {
+  width: 100%;
+}
+.info__image {
+  width: 100%;
+  filter: drop-shadow(0px 14px 44px rgba(2, 0, 102, 0.18));
+}
+.info__image .img {
+  width: 100%;
+}
+
+
+.inf-ul {
+  margin-top: 20px;
+  font-size: 18px;
+  gap: 16px;
+  color: #000;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 161.111% */
+  display: flex;
+  flex-direction: column;
+}
+.inf-ul li {
+  gap: 23px;
+  display: flex;
+  align-items: center;
+}
+.inf-ul li .icon {
+  height: 54px;
+  width: 54px;
+  filter: drop-shadow(0px 14px 44px rgba(2, 0, 102, 0.15));
+  background: #fff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+/* ---info-section---end */
