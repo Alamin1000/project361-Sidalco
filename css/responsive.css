@@ -253,6 +253,95 @@
     .overview_filter-grp {
         margin-bottom: 15px;
     }
+
+    .offer-bdg {
+        top: 20px;
+        left: 15px;
+    }
+
+    .details-img-slide .image {
+        border-radius: 12px;
+    }
+    .details__content__header h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .details__content__header h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+        gap: 22px;
+    }
+    .details__content__header .offer-extend-buttons {
+        margin-top: 20px;
+    }
+    .req-q-button .req-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .of-buttons p {
+        font-size: 16px;
+    }
+    .of-buttons {
+        margin-top: 20px;
+        gap: 12px;
+    }
+    .req-q-button .default-button {
+        padding-right: 35px;
+    }
+    .req-q-button {
+        margin-top: 25px;
+    }
+    .details-table-nav ul li a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .details-table-nav {
+        margin-bottom: 12px;
+    }
+    .details__content__body {
+        margin-top: 23px;
+    }
+    .details-table table tr td {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .details-nav-slider-outer {
+        padding: 10px 30px 0;
+    }
+    .details-nav-slide {
+        padding: 3px;
+    }
+    .details-more h4 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .details-more p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .details-more .check-ul {
+        gap: 9px;
+        margin-bottom: 14px;
+    }
+    .details-more .check-ul li {
+        font-size: 15px; 
+    }
+    .details-more .check-ul li::before {
+        top: 2px;
+    }
+    .details-section {
+        padding: 100px 0 50px;
+    }
+
+    .details-nav-slide .image {
+        border-radius: 7px;
+    }
+
+    .details-img-slider .slick-arrow {
+        height: 32px;
+        width: 32px;
+        font-size: 18px;
+    }
 }
 
 
@@ -335,11 +424,23 @@
     .overview-section__title {
         margin-bottom: 15px;
     }
+
+
+    .details-section {
+        padding: 50px 0 50px;
+    }
+    .details__content__header h4 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    .details-nav-slider-outer {
+        padding: 3px 0px 0;
+    }
 }
 
 
@@ -355,5 +456,13 @@
     .contact-menu {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .of-buttons .default-button {
+        font-size: 12px;
+        min-height: 35px;
+    }
+    .details-table table tr td {
+        font-size: 13px;
     }
 }

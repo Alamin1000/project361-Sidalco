@@ -20,6 +20,7 @@
 .default-button:hover {
     color: #fff;
     background: #214ac7;
+    border-color: transparent;
 }
 
 .default-button--white {
@@ -31,6 +32,11 @@
     border-color: var(--theme__color1);
     background: transparent;
     color: var(--theme__color1);
+}
+.default-button--bordered-black {
+    border-color: #293133;
+    background: transparent;
+    color: #293133;
 }
 /* ---buttons---end */
 
@@ -116,6 +122,9 @@
 .hover-bg-theme1:hover {
     background: var(--theme__color1) !important;
 }
+.hover-bg-theme1--light:hover {
+    background: var(--theme__color1--light) !important;
+}
 .hover-bg-theme2:hover {
     background: var(--theme__color2) !important;
 }
@@ -146,11 +155,17 @@
 .color-white {
     color: #fff !important;
 }
+.color-black {
+    color: #000 !important;
+}
 .color-text {
     color: var(--text__color1) !important;
 }
 .color-theme1 {
     color: var(--theme__color1) !important;
+}
+.color-theme1--light {
+    color: var(--theme__color1--light) !important;
 }
 .color-theme2 {
     color: var(--theme__color2) !important;
@@ -160,6 +175,13 @@
 }
 .color-theme4 {
     color: var(--theme__color4) !important;
+}
+
+.hover-color-theme1--light:hover {
+    color: var(--theme__color1--light) !important;
+}
+.hover-color-theme2:hover {
+    color: var(--theme__color2) !important;
 }
 
 
