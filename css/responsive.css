@@ -212,6 +212,47 @@
     }
 
 
+    .overview-section {
+        padding: 90px 0 60px;
+    }
+    .select-ftl .txt {
+        font-size: 14px;
+    }
+    .select-ftl .select {
+        font-size: 14px;
+    }
+    .select-ftl .chev-down {
+        font-size: 14px;
+    }
+    .overview-sidebar {
+        padding: 30px 15px;
+        border-radius: 15px;
+    }
+    .ck .txt {
+        font-size: 16px;
+    }
+    .ck {
+        gap: 10px;
+    }
+    .radio-ck {
+        height: 18px;
+        width: 18px;
+    }
+    .overview_filter-grp__title h4 {
+        font-size: 16px;
+    }
+    .overview_filter-grp__title {
+        padding: 0px 0 10px;
+    }
+    .overview_filter-grp__body {
+        padding: 10px 0;
+    }
+    .ck-wrap {
+        gap: 8px;
+    }
+    .overview_filter-grp {
+        margin-bottom: 15px;
+    }
 }
 
 
@@ -283,6 +324,16 @@
         gap: 6px;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .overview__title__flt {
+        margin-top: 10px;
+    }
+    .overview-section {
+        padding: 60px 0 50px;
+    }
+    .overview-section__title {
+        margin-bottom: 15px;
     }
 }
 

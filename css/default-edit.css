@@ -15,6 +15,7 @@
     font-weight: 600;
     line-height: normal;
     transition: 0.3s;
+    border: 1px solid transparent;
 }
 .default-button:hover {
     color: #fff;
@@ -23,6 +24,12 @@
 
 .default-button--white {
     background: #fff;
+    color: var(--theme__color1);
+}
+
+.default-button--bordered {
+    border-color: var(--theme__color1);
+    background: transparent;
     color: var(--theme__color1);
 }
 /* ---buttons---end */

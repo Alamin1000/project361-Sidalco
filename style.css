@@ -5,6 +5,7 @@
 :root {
   --theme__color1: #2B4591;
   --theme__color1--light: #567AE3;
+  --theme__color2: #F8CB29;
   --montserrat: 'Montserrat', sans-serif;
 }
 *,::before,::after {
@@ -854,3 +855,370 @@ p:last-child{
   color: var(--theme__color1--light);
 }
 /* ---footer-section---end */
+
+
+
+/* ---overview-section--- */
+.overview-section {
+  padding: 135px 0 80px;
+}
+.overview-section__inner {
+
+}
+.overview-section__title {
+  margin-bottom: 27px;
+}
+.overview__title__flt {
+  display: flex;
+}
+.select-ftl {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.select-ftl .txt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #293133;
+}
+.select-ftl .select-out {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #F8CB29;
+  border-radius: 0;
+}
+.select-ftl .select {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--theme__color1);
+  padding: 0;
+  border: none;
+  background: transparent;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  line-height: 1.55;
+}
+.select-ftl .chev-down {
+  color: var(--theme__color1--light);
+}
+
+.overview-row {
+
+}
+.overview-sidebar {
+  padding: 44px 24px;
+  border-radius: 20px;
+  background: #EFFBFF;
+  height: 100%;
+}
+.overview-sidebar__inner {
+
+}
+.overview_filter-grp {
+  margin-bottom: 25px;
+}
+.overview_filter-grp:last-child {
+  margin-bottom: 0;
+}
+.overview_filter-grp__title {
+  padding: 0px 0 14px;
+  border-bottom: 1px solid #A7BDFF;
+}
+.overview_filter-grp__title h4 {
+  color: #293133;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.overview_filter-grp__body {
+  padding: 14px 0;
+}
+.ck-wrap {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ck {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+.ck .check-ck {
+
+}
+.ck .icon {
+  display: flex;
+  align-items: center;
+  filter: grayscale(1) brightness(0.55) invert(1);
+  transition: 0.3s;
+}
+.ck .check:checked ~ .icon {
+  filter: grayscale(0) brightness(1) invert(0);
+}
+.ck .txt {
+  font-size: 18px;
+  color: #293133;
+  transition: 0.3s;
+}
+.ck .check:checked ~ .txt {
+  color: var(--theme__color1);
+  font-weight: 700;
+}
+/* ---overview-section---end */
+
+
+/* -check-ck- */
+.check-ck {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 16px;
+  width: 15px;
+  border-radius: 3px;
+  font-size: 12px;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.check-ck::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #D9D9D9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: inherit;
+}
+.check-ck::after {
+  content: '\f00c';
+  font-family: "Font Awesome 5 Pro";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #f7be23;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme__color1);
+  font-size:inherit;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.3s;
+}
+.check-ck:checked::after {
+  opacity: 1;
+}
+/* -check-ck- *
+
+
+/* -radio-ck- */
+.radio-ck {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  font-size: 14px;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.radio-ck::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: inherit;
+}
+.radio-ck::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.3s;
+  border: 1px solid var(--theme__color1);
+}
+.radio-ck:checked::after {
+  opacity: 1;
+}
+
+.radio-ck.color-green::before {
+  background: #2AB471;
+}
+.radio-ck.color-blue::before {
+  background: #4B7FCD;
+}
+.radio-ck.color-yellow::before {
+  background: #EEE400;
+}
+.radio-ck.color-red::before {
+  background: #FF3030;
+}
+/* -radio-ck- */
+
+
+/* ---details-section--- */
+.details-section {
+  padding: 148px 0 80px;
+}
+.details-section__inner {
+
+}
+
+.details-row {
+
+}
+.details-img-slider {
+
+}
+.details-img-slide {
+
+}
+.details-img-slide .image {
+
+}
+.details-img-slide .image .img {
+
+}
+.details-nav-slide {
+
+}
+.details-nav-slide .image {
+
+}
+.details-nav-slide .image .img {
+
+}
+
+.details__content {
+
+}
+.details__content__header {
+
+}
+.details__content__header .h2 {
+
+}
+.details__content__header h3 {
+  font-size: 25px;
+  margin-bottom: 21px;
+  font-weight: 400;
+  color: var(--theme__color1);
+}
+.details__content__header h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #293133;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.details__content__header h4 .grp {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.details__content__header .offer-extend-buttons {
+  margin-top: 36px;
+  padding: 0;
+}
+.req-q-button {
+  margin-top: 36px;
+  position: relative;
+  display: inline-block;
+}
+.req-q-button .default-button {
+  padding-right: 50px;
+}
+.req-q-button .req-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%,-50%);
+  filter: drop-shadow(0px 14px 44px rgba(2, 0, 102, 0.5)) ;
+  border-radius: 50%;
+}
+.req-q-button .req-icon img {
+
+}
+
+.of-buttons {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} 
+.of-buttons p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.details__content-body {
+
+}
+.details-table-nav {
+
+}
+.details-table-nav ul {
+
+}
+.details-table-nav ul li {
+
+}
+.details-table-nav ul li a {
+
+}
+.details-table-nav ul li a.active {
+
+}
+
+.details-table-tab-content {
+
+}
+.details-table-tab-pane {
+
+}
+.details-table {
+
+}
+.details-table table {
+
+}
+.details-table table tr {
+
+}
+.details-table table tr td {
+
+}
+.details-table table tr td:first-child {
+
+}
+.details-table table tr td:last-child {
+
+}
+/* ---details-section---end */
