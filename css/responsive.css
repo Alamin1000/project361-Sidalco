@@ -378,6 +378,15 @@
         left: -90px;
         width: 270px;
     }
+
+
+    .details-table-texts h4 {
+        font-size: 16px;
+        margin-bottom:10px;
+      }
+      .details-table-texts p {
+        font-size: 16px;
+      }
 }
 
 
@@ -473,6 +482,10 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
+    }
+
+    .info-section {
+        padding: 50px 0;
     }
 }
 
